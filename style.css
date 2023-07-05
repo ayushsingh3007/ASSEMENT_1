@@ -1,0 +1,79 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.body_container{width: 100vw;
+     height: 100vh;
+     background-color: black;}
+     .flex_container{width: 40vh;
+                    height: 40vh;
+                    margin: auto;
+                   display: flex;
+                   flex-wrap: wrap;
+                  justify-content: center;
+                 align-items: center;
+                  }
+                 .head{color: white;}
+                 .item{width: 3vw;
+                      height: 3vh;
+                      border-radius: 50%;
+                      background-color: white;
+                      margin: 3%;
+                       
+                       
+                      }
+                      .flex_item1{animation-name: ayush;
+                      	animation-duration: 1s;
+                       animation-iteration-count: infinite;
+                       animation-direction: all;
+                  }
+                  .flex_item2{animation-name: ayush1;
+                      	animation-duration: 1s;
+                       animation-iteration-count: infinite;
+                       animation-direction: all;
+                  }
+                  .flex_item3{animation-name: ayush2;
+                      	animation-duration: 1s;
+                       animation-iteration-count: infinite;
+                       animation-direction: all;
+                  }
+                  @keyframes ayush{
+                  	0%{width: 5vw;
+                  		height: 5vh;
+
+                  	}
+                  	50%{width:3vw;
+                  	   height:3vh;
+                  	}
+                  	100%{width:1vw;
+                  	    height: 1vh;}
+                  }
+                  @keyframes ayush1{
+                  	0%{width: 4vw;
+                  		height: 4vh;
+
+                  	}
+                  	50%{width:3vw;
+                  	   height:3vh;
+                  	}
+                  	100%{width:2vw;
+                  	    height:2vh;}
+                  }
+                  @keyframes ayush2{
+                  	0%{width: 5vw;
+                  		height: 5vh;
+
+                  	}
+                  	50%{width:4vw;
+                  	   height:4vh;
+                  	}
+                  	100%{width:3vw;
+                  	    height: 3vh;}
+                  }
+
+
+
+
+
+
+
+                      
